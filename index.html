@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash Page</title>
+    <!-- Link Favicon -->
+    <link rel="icon" href="favicon.png" />
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Branding Logo -->
+      <div class="branding">
+        <a href="https://home.com">
+          <img src="img/branding.png" alt="habitual logo" />
+        </a>
+      </div>
+      <!-- Toggle Background -->
+      <div class="toggle-background">
+        <div
+          class="background-1"
+          onclick="changeBackround('1')"
+          title="Change Background"
+        ></div>
+        <div
+          class="background-2"
+          onclick="changeBackround('2')"
+          title="Change Background"
+        ></div>
+        <div
+          class="background-3"
+          onclick="changeBackround('3')"
+          title="Change Background"
+        ></div>
+      </div>
+
+      <!-- Text-Container -->
+      <div class="text-container">
+        <h1 class="title">Find the stuff you’ll love.</h1>
+        <p class="text">
+          Aliquam rhoncus pretium dolor volutpat lectus odio non tellus neque.
+          Aliquet et purus nibh bibendum integer etiam in enim nisi.
+        </p>
+      </div>
+      <!-- Apps Button -->
+      <div class="apple-store">
+        <a href="https://www.apple.com/app-store/">
+          <img src="img/app-store.png" alt="app-store" />
+        </a>
+      </div>
+      <div class="play-store">
+        <a href="https://play.google.com/">
+          <img src="img/play-store.png" alt="play-store" />
+        </a>
+      </div>
+      <!-- Iphone Image -->
+      <img src="img/iphone.png" alt="iphone" class="iphone" />
+
+      <!-- All others Profile Images -->
+      <div class="home">
+        <img src="img/home.png" alt="home" />
+      </div>
+      <div class="cart">
+        <img src="img/cart.png" alt="cart" />
+      </div>
+      <div class="order">
+        <img src="img/orders.png" alt="order" />
+      </div>
+      <div class="product">
+        <img src="img/product.png" alt="product" />
+      </div>
+      <div class="profile">
+        <img src="img/profile.png" alt="profile" />
+      </div>
+    </div>
+
+    <!-- Link Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
